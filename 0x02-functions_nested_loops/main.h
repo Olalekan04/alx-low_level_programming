@@ -2,7 +2,7 @@
 #define _MAIN_H_
 /**
  * _putchar - writes the character c to std
- * @c: parameter to compare 
+ * @c: parameter to compare
  * Return: 1 or 0
  */
 int _putchar(char c);
@@ -31,13 +31,13 @@ int _isalpha(int c);
 /**
  * print_sign - prints a sign based on n
  * @n: integer to input
- * Return: 1 or 0 or -1
+ * Return: 1 or 0  or -1
  */
 int print_sign(int n);
 /**
  * _abs - gives absolute value
  * @int: integer
- * Return: integer or abs value of int 
+ * Return: integer or abs value of int
  */
 int _abs(int);
 /**
@@ -51,17 +51,17 @@ int print_last_digit(int);
  * jack_bauer - jack bauer gooo
  *
  */
-void jac_bauer(void);
+void jack_bauer(void);
 /**
  * times_table - times this up
  *
  *
  */
-void times-table(void);
+void times_table(void);
 /**
  * add - adds stuff up
  *
- * @int: integers to add 
+ * @int: integers to add
  * Return: returns a sum
  */
 int add(int, int);
@@ -73,10 +73,8 @@ int add(int, int);
 void print_to_98(int n);
 /**
  * print_times_table - whatever man
- * @n: integer to put in this table
+ *@n: integer to put in this table
  *
  */
 void print_times_table(int n);
 #endif
-
-
