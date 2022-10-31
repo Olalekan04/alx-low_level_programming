@@ -9,7 +9,7 @@
  *
  * Return: void
  */
-void print_diasums(int *a, int size)
+void print_diagsums(int *a, int size)
 {
 	int i;
 	int sum1 = 0;
@@ -26,6 +26,5 @@ void print_diasums(int *a, int size)
 			sum2 += a[i];
 		}
 	}
-	print("%d, %d\n", sum1, sum2);
-}	
-		
+	printf("%d, %d\n", sum1, sum2);
+}
